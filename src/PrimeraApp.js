@@ -1,9 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 //FC
+// si alguien quiere usar este componente debe enviar saludo
+const PrimeraApp = ({saludo}) =>{
 
-const PrimeraApp = ({saludo = "Hola Mundo"}) =>{
-
-    
+    // if(!saludo){
+      //se mande mensaje de error
+    //   throw new Error('El saludo es necesario');
+    // }
 
     
 
@@ -15,6 +19,10 @@ const PrimeraApp = ({saludo = "Hola Mundo"}) =>{
       </>
     )
    
+}
+
+PrimeraApp.propTypes = {
+    saludo: PropTypes.string.isRequired
 }
 
 export default PrimeraApp;
