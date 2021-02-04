@@ -1,9 +1,11 @@
 import React from 'react';
 //FC
 
-const PrimeraApp = () =>{
+const PrimeraApp = ({saludo = "Hola Mundo"}) =>{
 
-    const saludo = 'Hola Mundo'
+    
+
+    
 
     return ( // se regresa un objeto,3 es el espacio y null el remplace
       <>  
