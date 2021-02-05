@@ -9,4 +9,4 @@ const divRoot = document.querySelector('#root');
 
 // renderisar o mostrar vista
 // primer parametro el elemento 
-ReactDom.render(<PrimeraApp />,divRoot)
+ReactDom.render(<PrimeraApp saludo="Hola Mundo"/>,divRoot)
