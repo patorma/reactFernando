@@ -1,7 +1,7 @@
-import { render } from '@testing-library/react';
 import React  from 'react';
 import ReactDom from 'react-dom';
-import PrimeraApp from './PrimeraApp';
+// import PrimeraApp from './PrimeraApp';
+import CounterApp  from "./CounterApp";
 import './index.css'
 
 
@@ -9,4 +9,4 @@ const divRoot = document.querySelector('#root');
 
 // renderisar o mostrar vista
 // primer parametro el elemento 
-ReactDom.render(<PrimeraApp saludo="Hola Mundo"/>,divRoot)
+ReactDom.render(<CounterApp value={256}/> ,divRoot)
