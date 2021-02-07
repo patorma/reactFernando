@@ -11,6 +11,9 @@ const CounterApp = ({ value }) => {
   //handleAdd
   const handleAdd = () => {
       setCounter( counter + 1);
+      //segunda manera de manejar el el setCounter en caso de no tener acceso al
+      // counter
+      //setCounter((c) => c + 1 )
   };
   return (
     <>
