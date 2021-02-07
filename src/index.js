@@ -9,4 +9,4 @@ const divRoot = document.querySelector('#root');
 
 // renderisar o mostrar vista
 // primer parametro el elemento 
-ReactDom.render(<CounterApp value={256}/> ,divRoot)
+ReactDom.render(<CounterApp value={10}/> ,divRoot)
